@@ -1,0 +1,630 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+}
+header {
+    width: auto;
+    height: 100px;
+    background-color: transparent;
+}
+ header ul li {
+   display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+header ul li:hover {
+    color: rgb(243, 109, 132);
+    transition: all 1.4s ease;
+}
+header ul #org {
+    color: rgb(241, 66, 95);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+header ul #Home {
+    margin-left: 50%;
+    color: rgb(241, 66, 95);
+}
+.container2 {
+    display: flex;
+    width: auto;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin: 30px;
+}
+.container2 #sub-container {
+    width: 50%;
+}
+#sub-container2 {
+    width: 50%;
+    background-image: url("./header.png");
+    margin-top: -30px;
+    height: 500px;
+    background-size: cover;
+}
+.container2 #sub-container p {
+    margin-top: 20px;
+    word-spacing: 3px;
+}
+.container2 #sub-container div {
+    display: flex;
+}
+.container2 #sub-container div #button1 {
+    width: 200px;
+    border-radius: 30px ;
+    color: #ffffff;
+    background-color: rgb(243, 109, 132);
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container2 #sub-container div #button2 {
+    width: 150px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: rgb(243, 109, 132) ;
+    border-top: 2px solid rgb(243, 109, 132);
+    border-bottom: 2px solid rgb(243, 109, 132);
+    border-left: 2px dashed rgb(243, 109, 132);
+    border-right: 2px dashed rgb(243, 109, 132);
+    margin-left: 20px;
+    padding: 8px;
+    margin-top: 30px;
+    font-weight: bold;
+
+} 
+ h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+  hr {
+    width: 35px;
+    /* height: 15px; */
+    margin-left: 48%;
+    margin-top: 10px;
+    border: 1px solid rgb(250, 139, 157);
+}
+.our-services {
+    width: auto;
+    height: 550px;
+    /* border: 2px solid red; */
+    display: block;
+    margin-top: 30px;
+}
+#settings {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-left: 45%;
+    margin-top: 20px;
+    background-image: url("./settings-removebg-preview.png");
+    background-size: cover;
+}
+#serv {
+    margin-top: 170px;
+}
+/* #services:nth-child(1) {
+    margin-left: 50px;
+} */
+.our-services #services1 {
+    display: flex;
+    /* border: 1px solid brown; */
+    /* width: 300px;
+    height: 250px; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.our-services #services1 #one, #one1 {
+    width: 350px;
+    height: 250px;
+    box-shadow: 1px 1px 2px 2px lightgrey;
+    margin-left: 30px;
+    display: block;
+}
+.fa-circle, .fa-user, .fa-plane {
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 2px solid pink;
+    color: rgb(243, 109, 132);
+    font-size: 1.5rem;
+
+}
+.fa-user, .fa-plane {
+    border: none;
+}
+#access {
+    margin-top: 30px;
+}
+#access1 {
+    margin-top: 30px;
+    text-align: center;
+    color: lightgrey;
+
+}
+
+.our-services #services1 #one1 {
+    margin-left: 80px;
+}
+.detailed {
+    width: auto;
+    height: 500px;
+    background-color: rgb(250, 245, 245);
+    margin: 30px;
+    display: flex;
+}
+.detailed div {
+    display: block;
+    width: 50%;
+    margin: 50px;
+}
+.detailed div h2 {
+    margin-top: 30px;
+}
+.detailed div p {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.detailed div button {
+    width: 150px;
+    border-radius: 30px ;
+    color: #ffffff;
+    background-color: rgb(243, 109, 132);
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#image2 {
+    width: 500px;
+    height: 420px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    background-image: url("./hhhh.png");
+    background-size: cover;
+}
+.Awesome {
+    display: flex;
+    width: auto;
+    height: 450px;
+    margin-left: 50px;
+}
+#features2 {
+    display: block;
+    width: 350px;
+    height: 400px;
+}
+.Awesome #features, #feature-image {
+    display: block;
+    width: 350px;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: 30px;
+    /* width: 150px;
+    height: 200px;
+    box-shadow: 1px 1px 2px 2px lightgrey; */
+}
+#feature-image {
+    background-image: url("./feature-img\ \(1\).png");
+    background-size: cover;
+}
+.Awesome #features #features1  {
+    width: 350px;
+    height: 110px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    display: flex;
+}
+.flex1 {
+    width: 250px;
+    height: 400px;
+    margin-top: 10px;
+}
+#boot {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: lightgrey;
+}
+#plane {
+    color: rgb(243, 109, 132);
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#meet-id {
+    text-align: center;
+}
+.Meet {
+   display: block; 
+   width: auto;
+   height: 350px;
+   /* border: 2px solid black; */
+   margin: 20px;
+   margin-top: 10px;
+   margin-left: 60px;
+}
+.Meet #meet1 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Meet #meet1 #person1, #person2 {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(224, 221, 221);
+    background-image: url("./IMG_20180726_075103_605-removebg-preview.png");
+    background-size: cover;
+}
+#person2 {
+    margin-left: 40px;
+}
+.Meet #meet1 #person1-info {
+    width: 300px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgb(228, 224, 224);
+    display: block;
+}
+.Meet #meet1 #person1-info h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+.Meet #meet1 #person1-info p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Meet #meet1 #person1-info #social-icons {
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    
+}
+.Meet #meet1 #person1-info #social-icons .fa-facebook {
+    color: blue;
+    margin-left: 40px;
+}
+.Meet #meet1 #person1-info #social-icons .fa-twitter {
+    color: lightblue;
+    margin-left: 20px;
+}
+.Meet #meet1 #person1-info #social-icons .fa-instagram {
+    color: rgb(243, 109, 132);
+    margin-left: 20px;
+}
+.pricing {
+    display: flex;
+    width: auto;
+    height: 400px;
+    margin: 20px;
+    margin-left: 15%;
+}
+.pricing #price1 {
+    width: 300px;
+    height: inherit;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    margin-left: 20px;
+    display: block;
+} 
+.pricing #price1 #diagram {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.pricing #price1 #diagram .fa-box {
+    color: rgb(243, 109, 132);
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+.pricing #price1 #amount {
+    display: flex;
+    margin-left: 120px;
+}
+.pricing #price1 #amount p {
+    color: rgb(243, 109, 132);
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.pricing #price1 #amount p span {
+    color: grey;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.pricing #price1 h5 {
+    font-weight: bolder;
+    /* margin-left: 140px; */
+    margin-top: 20px;
+    text-align: center;
+}
+.pricing #price1 h6 {
+    font-weight: 300;
+    /* font-size: 1rem; */
+    color: grey;
+    /* margin-left: 130px; */
+    margin-top: 15px;
+    text-align: center;
+}
+.pricing #price1 button {
+    margin-left: 30%;
+    width: 110px;
+    height: 40px;
+    padding: 15px;
+    background-color: rgb(248, 25, 62);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.cordinators {
+    width: auto;
+    height: 420px;
+    background-color: rgb(252, 16, 95);
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+.cordinators #cord1, #cord2 {
+    width: 400px;
+    height: 330px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: block;
+}
+.cordinators #cord1 #cordimage, .cordinators #cord2 #cordimage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    margin-left: 160px;
+    margin-top: 30px;
+    background-color: rgb(248, 225, 228);
+    background-image: url("./IMG_2380.PNG");
+    background-size: cover;
+}
+.cordinators #cord1 #iconstar, .cordinators #cord2 #iconstar {
+    display: flex;
+    color: rgb(241, 66, 95);
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 0.7rem;
+
+}
+.cordinators #cord1 h5, .cordinators #cord2  h5 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+.cordinators #cord1 h6, .cordinators #cord2  h6 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.cordinators #cord1 p, .cordinators #cord2  p {
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 1px;
+    line-height: 20px;
+}
+.cordinators #cord2 {
+    margin-left: 10px;
+}
+#circleicon {
+    display: flex;
+    /* margin-left: -100px; */
+}
+#small-circle {
+    margin-left: 170px;
+    margin-top: 70px;
+    font-size: 0.5rem;
+    color: #ffffff
+}
+#small1 {
+    margin-left: 0px;
+    margin-top: 70px;
+    font-size: 0.5rem;
+    color: #ffffff
+
+}
+h4 {
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.lorem {
+    display: flex;
+    width: auto;
+    margin: 10px;
+    height: 80px;
+}
+.lorem #loremtext {
+    width: 80%;
+    margin-top: 10px;
+    
+
+}
+.lorem #loremtext p {
+    letter-spacing: 1px;
+    margin-top: -10px ;
+}
+.lorem button {
+    margin-left: 50%;
+    width: 250px;
+    height: 40px;
+    padding: 15px;
+    background-color: rgb(248, 25, 62);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact {
+    background-color: rgb(229, 226, 226);
+    width: auto;
+    height: 400px;
+    margin: 30px;
+}
+/* .contact div {
+    margin-top: 30px;
+} */
+
+.contact #form-map {
+    display: flex;
+}
+.contact #form-map #form {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 50%;
+}
+.contact #form-map #form input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    
+}
+.contact #form-map #form #name, #name1 {
+    width: 270px;
+    /* margin-left: 20px; */
+}
+.contact #form-map #form #name1 {
+    margin-left: 20px;
+}
+.contact #form-map #form #country, #Message {
+    width: 560px;
+}
+.contact #form-map #form #Message {
+    height: 150px;
+    /* text-align: start; */
+}
+.contact #form-map #form #message::placeholder {
+    margin-top: -100px;
+    text-align: center;
+}
+.contact #form-map #form button {
+    padding: 10px;
+    color: white;
+    background-color: rgb(243, 30, 65);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.contact #form-map #map {
+    width: 30%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    background-image: url("./th__1_-removebg-preview\ \(2\).png");
+    background-size: cover;
+    /* height: ; */
+
+}
+.lastcontainer {
+    width: auto;
+    /* width: 30px; */
+    height: 500px;
+    display: flex;
+    margin: 30px;
+}
+.lastcontainer #fusion {
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    margin-top: 40px;
+    display: block;
+}
+.lastcontainer #fusion h5 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(243, 9, 48);
+    font-size: 1.5rem;
+}
+.lastcontainer #fusion p {
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#space {
+    margin-left: 25px;
+    cursor: pointer;
+}
+.lastcontainer #fusion h6 {
+    margin-top: 80px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.lastcontainer #fusion #location {
+    display: flex;
+    margin-top: 20px;
+}
+.lastcontainer #fusion #location #mapicon {
+    width: 30px;
+    height: 30px;
+    background-image: url("./th\ \(2\).jpg");
+    background-size: cover;
+    margin-top: 20px ;
+
+}
+.lastcontainer #fusion #location pre {
+    margin-top: 20px;
+    color: grey;
+}
+.lastcontainer #fusion #location #number {
+    margin-top: 0;
+    
+}
+
+
+footer {
+    text-align: center;
+    color: black;
+    background-color: rgb(243, 9, 48);
+    /* font-style: italic; */
+    font-family: 'Lucida Sans';
+    font-size: 1rem;
+}
+#devname {
+    color: #ffffff;
+    font-weight: bolder;
+}
+#space:hover {
+    color: rgb(243, 30, 65);
+    transition: all 1.4s ease;
+}
